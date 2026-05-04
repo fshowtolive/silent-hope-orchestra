@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Thank You — Silent Hope Orchestra</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;1,300;1,400&family=Cinzel:wght@400&family=Jost:wght@300&display=swap" rel="stylesheet"/>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: #080608;
+      color: #f0e8d8;
+      font-family: 'Jost', sans-serif;
+      font-weight: 300;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 2rem;
+    }
+    .container { max-width: 500px; }
+    .icon { font-size: 4rem; margin-bottom: 2rem; animation: float 3s ease-in-out infinite; }
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-10px); }
+    }
+    .eyebrow {
+      font-family: 'Cinzel', serif;
+      font-size: 0.65rem;
+      letter-spacing: 0.45em;
+      color: #c4a452;
+      text-transform: uppercase;
+      margin-bottom: 1.5rem;
+    }
+    h1 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 3rem;
+      font-weight: 300;
+      line-height: 1.1;
+      margin-bottom: 1.5rem;
+    }
+    h1 em {
+      font-style: italic;
+      background: linear-gradient(135deg, #c4a452, #e2c47a);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    p {
+      font-size: 0.9rem;
+      color: #7a7068;
+      line-height: 1.9;
+      margin-bottom: 2.5rem;
+    }
+    a {
+      font-family: 'Cinzel', serif;
+      font-size: 0.68rem;
+      letter-spacing: 0.28em;
+      text-transform: uppercase;
+      color: #080608;
+      background: linear-gradient(135deg, #c4a452, #e2c47a);
+      padding: 0.9rem 2.2rem;
+      text-decoration: none;
+      display: inline-block;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    a:hover { transform: translateY(-2px); box-shadow: 0 8px 30px rgba(196,164,82,0.3); }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="icon">✨</div>
+    <p class="eyebrow">✦ Order Confirmed ✦</p>
+    <h1>Your stones are <em>on their way</em></h1>
+    <p>Thank you for your order. Each stone has been chosen with intention and will be moonlight-cleansed before shipping. Shohei will pack your order with care. ご注文ありがとうございます。</p>
+    <a href="/">← Back to the Collection</a>
+  </div>
+</body>
+</html>

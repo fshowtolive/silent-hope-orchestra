@@ -1,0 +1,8 @@
+{
+  "name": "silent-hope-orchestra",
+  "version": "1.0.0",
+  "description": "Silent Hope Orchestra Crystal Shop",
+  "dependencies": {
+    "stripe": "^14.0.0"
+  }
+}
